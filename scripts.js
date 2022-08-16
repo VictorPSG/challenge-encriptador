@@ -33,7 +33,7 @@ function descriptografar(string){
 }
 function botCodificar(){
     resultado=[];
-    string = document.querySelector("input").value;
+    string = document.querySelector("textarea").value;
     string = string.split("");
     string = separaString(string);
     string = encripta(string);
@@ -42,7 +42,7 @@ function botCodificar(){
 }
 function botDecode(){
     resultado=[];
-    string = document.querySelector("input").value;
+    string = document.querySelector("textarea").value;
     //string = string.split("");
     string = descriptografar(string);
     document.getElementById("resultado").innerHTML=string;
