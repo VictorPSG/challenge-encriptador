@@ -45,5 +45,5 @@ function botDecode(){
     string = document.querySelector("textarea").value;
     //string = string.split("");
     string = descriptografar(string);
-    document.getElementById("resultado").innerHTML=string;
+    document.getElementById("res1").innerHTML=string;
 }
