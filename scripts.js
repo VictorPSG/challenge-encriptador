@@ -47,3 +47,7 @@ function botDecode(){
     string = descriptografar(string);
     document.getElementById("res1").innerHTML=string;
 }
+function copiText(){
+    var copiando = document.getElementById("res1").innerHTML;
+    navigator.clipboard.writeText(copiando);
+}
