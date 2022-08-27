@@ -38,7 +38,7 @@ function botCodificar(){
     string = separaString(string);
     string = encripta(string);
     console.log(string);
-    document.getElementById("resultado").innerHTML=string;
+    document.getElementById("res1").innerHTML=string;
 }
 function botDecode(){
     resultado=[];
