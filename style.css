@@ -39,11 +39,19 @@ body{
     font-size: 24px;
     color: #495057;
     white-space: pre-line;
-    display: block;
 }
 .divres{
     height: 85%;
     overflow-y: auto;
+}
+.apenas{
+    text-align: left;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    font-size: 18px;
+    color: #495057;
+    display: flex;
+    align-items: center;
 }
 .but{
     text-align: center;
@@ -55,13 +63,16 @@ button{
     padding: 15px 30px;
     font-size: 24px;
     border: none;
+    margin-right: 6%;
+    cursor: pointer;
 }
 .copi{
     width: 40%; 
     height: 10%;
     margin-bottom: 1%;
-    background: #0A3871;
-    color: white;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    background-color: white;
     margin-left: 29%;
 }
 #cod{
@@ -72,4 +83,23 @@ button{
     background: none;
     color: #0A3871;
     border: 2px solid #0A3871;
+}
+#res1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+svg{
+    margin-top: 25%;
+}
+.nen{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: ##343A40;
+}
+.digite{
+    font-size: 16px;
+    text-align: center;
+    margin: 3%;
 }
