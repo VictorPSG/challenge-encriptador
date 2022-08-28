@@ -39,6 +39,7 @@ body{
     font-size: 24px;
     color: #495057;
     white-space: pre-line;
+
 }
 .divres{
     height: 85%;
@@ -71,7 +72,7 @@ button{
     height: 10%;
     margin-bottom: 1%;
     color: #0A3871;
-    border: 1px solid #0A3871;
+    border: 2px solid #0A3871;
     background-color: white;
     margin-left: 29%;
 }
@@ -83,23 +84,4 @@ button{
     background: none;
     color: #0A3871;
     border: 2px solid #0A3871;
-}
-#res1{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-svg{
-    margin-top: 25%;
-}
-.nen{
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    color: ##343A40;
-}
-.digite{
-    font-size: 16px;
-    text-align: center;
-    margin: 3%;
 }
