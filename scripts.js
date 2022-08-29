@@ -39,6 +39,8 @@ function botCodificar(){
     string = encripta(string);
     console.log(string);
     document.getElementById("res1").innerHTML=string;
+    document.getElementById("nen").innerHTML="";
+    document.getElementById("digi").innerHTML="";
 }
 function botDecode(){
     resultado=[];
@@ -46,6 +48,8 @@ function botDecode(){
     //string = string.split("");
     string = descriptografar(string);
     document.getElementById("res1").innerHTML=string;
+    document.getElementsByClassName("nen").innerHTML="";
+    document.getElementsByClassName("digi").innerHTML="";
 }
 function copiText(){
     var copiando = document.getElementById("res1").innerHTML;
