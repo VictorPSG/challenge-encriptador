@@ -102,7 +102,7 @@ button{
     border: 2px solid #0A3871;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1200px) {
     .sem-name, .text{
         display: flex;
         flex-direction: column;
