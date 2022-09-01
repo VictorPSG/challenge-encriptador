@@ -102,7 +102,7 @@ button{
     border: 2px solid #0A3871;
 }
 
-@media screen{
+@media screen and (max-width: 480px) {
     .sem-name, .text{
         display: flex;
         flex-direction: column;
@@ -117,7 +117,7 @@ button{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        height: 25%;
+        height: 50%;
     }
     button{
         width: 90%;
@@ -128,6 +128,10 @@ button{
         height: auto;
         width: auto;
         margin: 3% 5%;
+    }
+    .textres{
+        text-align: center;
+        display: block;
     }
     
 }
