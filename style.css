@@ -110,6 +110,42 @@ button{
     }
     #input{
         width: auto;
+        height: 1000%;
+    }
+    .but{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .txtbut{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+        height: auto;
+        margin: 3% 0 0 4%;
+    }
+    #resultado{
+        height: auto;
+        width: auto;
+        margin: 3% 5%;
+    }
+    .textres{
+        text-align: center;
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .sem-name, .text{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    #input{
+        width: auto;
         height: 80%;
     }
     .but{
@@ -117,11 +153,11 @@ button{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        height: 50%;
+        height: 100%;
     }
     button{
-        width: 90%;
-        height: 100%;
+        width: auto;
+        height: 25%;
         margin: 3% 0 0 4%;
     }
     #resultado{
