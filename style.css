@@ -6,11 +6,11 @@ body{
     flex-direction: row;
 }
 .logo{
-    margin: 40px 0 0 80px;
+    margin: 3% 0 0 6%;
 }
 .text{
 
-    margin: 9% 4% 0 5%;
+    margin: 10% 2% 0 6%;
     width: 55%;
     height: 70vh;
 }
@@ -101,73 +101,63 @@ button{
     color: #0A3871;
     border: 2px solid #0A3871;
 }
-
 @media screen and (max-width: 1200px) {
     .sem-name, .text{
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         width: auto;
     }
+    .logo{
+        text-align: left;
+    }
     #input{
-        width: auto;
-        height: 1000%;
+        width: 100%;
+        height: 300px;
     }
     .but{
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-    }
-    .txtbut{
         width: 100%;
     }
     button{
         width: 100%;
-        height: auto;
-        margin: 3% 0 0 4%;
+        margin: 3% 1%;
     }
     #resultado{
-        height: auto;
         width: auto;
-        margin: 3% 5%;
+        height: auto;
+        margin: 2% 2%;
     }
-    .textres{
-        text-align: center;
-        display: block;
-    }
-    
-}
 @media screen and (max-width: 700px) {
     .sem-name, .text{
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         width: auto;
     }
+    .logo{
+        text-align: left;
+    }
     #input{
-        width: auto;
-        height: 80%;
+        width: 100%;
+        height: 300px;
     }
     .but{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         width: 100%;
-        height: 100%;
     }
     button{
-        width: auto;
-        height: 25%;
-        margin: 3% 0 0 4%;
+        width: 100%;
+        margin: 3% 0;
     }
     #resultado{
-        height: auto;
         width: auto;
-        margin: 3% 5%;
-    }
-    .textres{
-        text-align: center;
-        display: block;
+        height: auto;
+        margin: 2% 2%;
     }
     
 }
